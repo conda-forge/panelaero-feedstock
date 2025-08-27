@@ -1,4 +1,5 @@
 {% set name = "PanelAero" %}
+# Make sure to omit any zeros, e.g. 2025.8 instead of 2025.08
 {% set version = "2025.8" %}
 
 package:
@@ -12,7 +13,7 @@ source:
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
-  number: 1
+  number: 0
 
 requirements:
   host:
