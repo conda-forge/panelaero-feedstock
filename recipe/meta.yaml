@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/DLR-AE/PanelAero/archive/refs/tags/2025.08.tar.gz
-  sha256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  sha256: bf4b3733b16ff0ffc96a8fc9c23e260ca35850d6078c3bddb3466510be5fbfd4
   # generated with curl -sL <url/to/*.tar.gz> | openssl sha256
 
 build:
