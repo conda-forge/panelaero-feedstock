@@ -1,14 +1,14 @@
 {% set name = "PanelAero" %}
-# Make sure to omit any zeros, e.g. 2025.8 instead of 2025.08
-{% set version = "2025.8" %}
+{% set version = "2025.08" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/PanelAero-{{ version }}.tar.gz
-  sha256: 4e91b3f20648e98317320dc5e8c6d9eb0bcc708e970f021c9736813f8a14e433
+  url: https://github.com/DLR-AE/PanelAero/archive/refs/tags/2025.08.tar.gz
+  sha256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  # generated with curl -sL <url/to/*.tar.gz> | openssl sha256
 
 build:
   noarch: python
