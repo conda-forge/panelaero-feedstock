@@ -1,5 +1,5 @@
 {% set name = "PanelAero" %}
-{% set version = "2024.2" %}
+{% set version = "2025.8" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/PanelAero-{{ version }}.tar.gz
-  sha256: c3cf20edc0a01db2b4dda86886dae8d803dec0529c07e0f578a8ac252f256392
+  sha256: 4e91b3f20648e98317320dc5e8c6d9eb0bcc708e970f021c9736813f8a14e433
 
 build:
   noarch: python
